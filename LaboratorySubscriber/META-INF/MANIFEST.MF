@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LaboratorySubscriber
+Bundle-SymbolicName: LaboratorySubscriber
+Bundle-Version: 1.0.0.qualifier
+Export-Package: laboratorysubscriber
+Bundle-Activator: laboratorysubscriber.SubActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: LaboratorySubscriber
+Import-Package: laboratorypublisher,
+ org.osgi.framework;version="1.3.0"
+Require-Bundle: LaboratoryPublisher;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
